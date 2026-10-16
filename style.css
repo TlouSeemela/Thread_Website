@@ -131,14 +131,16 @@ li {
   align-items: center;
 }
 
-.main-header__nav--links a {
+.main-header__nav--links a,
+.main-header__nav--registration a:first-of-type {
   font-size: 1.5rem;
   padding: 1.5rem 2.5rem;
   border-radius: 0.5rem;
   transition: all 0.25s ease-in-out;
 }
 
-.main-header__nav--links a:hover {
+.main-header__nav--links a:hover,
+.main-header__nav--registration a:first-of-type:hover {
   background-color: var(--color-secondary);
 }
 
